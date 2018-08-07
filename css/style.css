@@ -1261,3 +1261,37 @@ textarea.input {
     background-color: #DDF;
     color: #000;
 }
+
+.register-btn {
+    display: inline-block;
+    padding: 14px 50px;
+    background: #dd0a37;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    margin-top: 20px;
+}
+.register-btn:hover {
+      color: #FFF;
+    opacity: 0.8;
+}
+
+#myModalLabel {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 35px;
+  color: #dd0a37;
+}
+
+.register-input {
+  margin-right: 150px;
+  margin-bottom :10px;
+}
+
+#register-label {
+  margin-left: 20px;
+}
