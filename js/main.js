@@ -109,6 +109,8 @@
 			return false;
     });
 
-});
+	});
+
+	$('#myModal').click(.modal('show'));
 
 })(jQuery);
